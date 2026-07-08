@@ -1,0 +1,34 @@
+h1::before{
+    content:"💖"
+}
+
+p::after{
+    content:"(^¬^)"
+}
+
+.bio::first-letter{
+    color: rgb(191, 83, 162);
+    font-size: 30px;
+}
+
+p::first-line{
+    font-weight: bold;
+    font-family: monospace;
+}
+
+body::selection{
+   background-color:rgb(216, 122, 199);
+}
+
+::placeholder{
+    font-style: italic;
+    color: rgb(194, 17, 126);
+}
+
+::marker{
+    color: rgb(229, 23, 218);
+    font: 200px;
+}
+body{
+    background-color: rgb(235, 195, 220);
+}
